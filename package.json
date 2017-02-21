@@ -1,12 +1,19 @@
 {
   "name": "slack-wh-send",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Utility for send Slack Webhook messages in a simple way",
   "main": "index.js",
   "scripts": {
     "watch": "babel -w src -d lib",
     "build": "babel src -d lib",
     "test": "npm run build && node test/SlackWhSend.test.js"
+  },
+  "bugs": {
+    "url" : "https://github.com/lmfresneda/slack-wh-send/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmfresneda/slack-wh-send.git"
   },
   "keywords": [
     "slack",
