@@ -1,9 +1,9 @@
-#Change Log
+# Change Log
 
-##v0.1.0 2017-02-21
+## v0.1.0 2017-02-21
 
 * Publish to npm
 
-##v0.0.1 2017-02-20
+## v0.0.1 2017-02-20
 
 * Initial commit
