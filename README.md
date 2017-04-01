@@ -1,10 +1,10 @@
-#SlackWhSend
+# SlackWhSend
 
 Utility for send Slack Webhook messages in a simple way
 
-##How to use
+## How to use
 
-###npm
+### npm
 
 ```bash
 npm install --save slack-wh-send
@@ -16,7 +16,7 @@ import SlackWhSend from 'slack-wh-send';
 const slackWhSend = new SlackWhSend('https://hooks.slack.com/services/XXXXXXXXX/YYYYYYYYY/ZZZZZZZZZZZZZZZZZZZZZZZZ');
 ```
 
-##Example
+## Example
 
 With this code:
 
