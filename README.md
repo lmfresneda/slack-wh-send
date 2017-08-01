@@ -1,19 +1,17 @@
-# SlackWhSend
+#  slack-wh-send
 
 [![npm](https://img.shields.io/npm/v/slack-wh-send.svg?style=flat-square)](https://www.npmjs.com/package/slack-wh-send) [![npm](https://img.shields.io/npm/dt/slack-wh-send.svg?style=flat-square)](https://www.npmjs.com/package/slack-wh-send)
 
-Utility for send Slack Webhook messages in a simple way
+Utility for send Slack Webhook Messages in a simple way
 
 ## How to use
-
-### npm
 
 ```bash
 npm install --save slack-wh-send
 ```
 
 ```js
-import SlackWhSend from 'slack-wh-send';
+const SlackWhSend = require('slack-wh-send');
 
 const slackWhSend = new SlackWhSend('https://hooks.slack.com/services/XXXXXXXXX/YYYYYYYYY/ZZZZZZZZZZZZZZZZZZZZZZZZ');
 ```
@@ -23,7 +21,7 @@ const slackWhSend = new SlackWhSend('https://hooks.slack.com/services/XXXXXXXXX/
 With this code:
 
 ```js
-import SlackWhSend from 'slack-wh-send';
+const SlackWhSend = require('slack-wh-send');
 
 const slackWhSend = new SlackWhSend('https://hooks.slack.com/services/XXXXXXXXX/YYYYYYYYY/ZZZZZZZZZZZZZZZZZZZZZZZZ');
 
@@ -45,7 +43,7 @@ slackWhSend
     .color('danger')
     .defaultFooter()
   .send().then(function (res) {
-    log('send ' + res);
+    console.log('send ' + res);
   }).catch(console.error)
 ```
 
@@ -56,7 +54,7 @@ We generated this message in Slack:
 Or we can use preformated attachments:
 
 ```js
-import SlackWhSend from 'slack-wh-send';
+const SlackWhSend = require('slack-wh-send');
 
 const slackWhSend = new SlackWhSend('https://hooks.slack.com/services/XXXXXXXXX/YYYYYYYYY/ZZZZZZZZZZZZZZZZZZZZZZZZ');
 
@@ -84,7 +82,7 @@ slackWhSend
   .icon(':space_invader:')
   .useAttachments(attachments) // use my attachments
   .send().then(function (res) {
-      log('send ' + res);
+      console.log('send ' + res);
     }).catch(console.error)
 ```
 
