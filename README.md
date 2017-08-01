@@ -1,5 +1,7 @@
 # SlackWhSend
 
+[![npm](https://img.shields.io/npm/v/slack-wh-send.svg?style=flat-square)](https://www.npmjs.com/package/slack-wh-send) [![npm](https://img.shields.io/npm/dt/slack-wh-send.svg?style=flat-square)](https://www.npmjs.com/package/slack-wh-send)
+
 Utility for send Slack Webhook messages in a simple way
 
 ## How to use
